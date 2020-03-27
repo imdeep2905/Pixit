@@ -15,32 +15,32 @@ This is a little project which pixelate the given image<br>
       * Grey: ```python main.py <file_path> -grey```(converts image to greyscale).
       * Help: ```python main.py --help```(To see help).
   <br>
-  Some Examples:
+  Some Examples:<br>
   ```python main.py "Test/test1.jpg" ```<br>
   Original:<br>
   ![test1](https://github.com/imdeep2905/Pixit/blob/master/Test/test1.jpg)<br>
   Pixelated:<br>
-  ![testo1](https://github.com/imdeep2905/Pixit/blob/master/Test/test1o.jpg)<br>
+  ![test1o](https://github.com/imdeep2905/Pixit/blob/master/Test/test1o.jpg)<br>
   
-  ```python main.py "Test/test2.jpg" -size 10 -grey ```
+  ```python main.py "Test/test2.jpg" -size 10 -grey ```<br>
   Original:<br>
-  ![test2](https://github.com/imdeep2905/Pixit/blob/master/Test/test1.jpg)<br>
+  ![test2](https://github.com/imdeep2905/Pixit/blob/master/Test/test2.jpg)<br>
   Pixelated:<br>
   ![test2o](https://github.com/imdeep2905/Pixit/blob/master/Test/test2o.jpg)<br>
 
-  ```python main.py "Test/test3.jpg" -size 100 ```
+  ```python main.py "Test/test3.jpg" -size 100 ```<br>
   Original:<br>
   ![test3](https://github.com/imdeep2905/Pixit/blob/master/Test/test3.jpg)<br>
   Pixelated:<br>
   ![test3o](https://github.com/imdeep2905/Pixit/blob/master/Test/test3o.jpg)<br>
   
-  ```python main.py "Test/test4.jpg" -size 6 -grey```
+  ```python main.py "Test/test4.jpg" -size 6 -grey```<br>
   Original:<br>
   ![test4](https://github.com/imdeep2905/Pixit/blob/master/Test/test4.jpg)<br>
   Pixelated:<br>
   ![test4o](https://github.com/imdeep2905/Pixit/blob/master/Test/test4o.jpg)<br>
   
-  ```python main.py "Test/test5.jpg" -size 20```
+  ```python main.py "Test/test5.jpg" -size 20```<br>
   Original:<br>
   ![test5](https://github.com/imdeep2905/Pixit/blob/master/Test/test5.jpg)<br>
   Pixelated:<br>
