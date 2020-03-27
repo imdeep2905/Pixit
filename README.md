@@ -16,8 +16,36 @@ This is a little project which pixelate the given image<br>
       * Help: ```python main.py --help```(To see help).
   <br>
   Some Examples:
+  ```python main.py "Test/test1.jpg" ```
+  Original:<br>
+  <br>
+  Pixelated:<br>
+  <br>
   
+  ```python main.py "Test/test2.jpg" -size 10 -grey ```
+  Original:<br>
+  <br>
+  Pixelated:<br>
+  <br>
 
+  ```python main.py "Test/test3.jpg" -size 100 ```
+  Original:<br>
+  <br>
+  Pixelated:<br>
+  <br>
+  
+  ```python main.py "Test/test4.jpg" -size 6 -grey```
+  Original:<br>
+  <br>
+  Pixelated:<br>
+  <br>
+  
+  ```python main.py "Test/test5.jpg" -size 20```
+  Original:<br>
+  <br>
+  Pixelated:<br>
+  <br>
+  
 # Logic behind pixelating
 As we know images are simply array of pixels. For ex. a RGB image of resolution ```1333x688``` can be viewed as an array of shape ```(1366, 768, 3)```(last 3 for seprate Red, green and blue pixels).Now let's take ```SIZE = 10 ``` and pixelate the image of same size.
 <br>
