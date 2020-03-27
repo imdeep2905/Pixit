@@ -11,8 +11,10 @@ This is a little project which pixelate the given image.After each run program w
   1. Fulfill ```requirements.txt``` (i.e. ```pip install -r requirements.txt```).
   2. Run with command ```python main.py <file_path>```.
   3. Optional arguments
-      * Intensity:  ```python main.py <file_path> -size 20```(Fill 20x20 pixels at once).
-      * Grey: ```python main.py <file_path> -grey```(converts image to greyscale).
+      * Intensity:  ```python main.py <file_path> -size 20```(Fill 20x20 pixels at once).<br/>
+        Default value of size is **8**.
+      * Grey: ```python main.py <file_path> -grey```(converts image to greyscale).<br/>
+        By Default output images will be same as provided(in terms of channels).
       * Help: ```python main.py --help```(To see help).
   ## Some Examples 
   1. ```python main.py "Test/test1.jpg"``` <br/><br/>
