@@ -60,7 +60,7 @@ This is a little project which pixelate the given image.After each run program w
 # Logic behind pixelating
 As we know images are simply array of pixels. For ex. a RGB image of resolution ```1333x688``` can be viewed as an array of shape ```(1366, 768, 3)```(last 3 for seprate Red, green and blue pixels).Now let's take ```SIZE = 10 ``` and pixelate the image of same size.
 <br>
-First let's start with first pixel (i.e. ```(0, 0, 0-3)```) and give square with ```10x10``` starting from selected pixel same pixel value.Now next we must select pixel which is atleast SIZE distance away from current pixel(i.e ```(11, 0, 0-3)``` in this case). After repeating this process for whole image we can pixelate an image. 
+First let's start with first pixel (i.e. ```(0, 0, 0-3)```) and give square with ```10x10``` starting from selected pixel same pixel value.Now next we must select pixel which is atleast SIZE distance away from current pixel(i.e ```(11, 0, 0-3)``` in this case). After repeating this process for whole image we can pixelate an image. Note that if image's resolution is not perfectly divisible by ```SIZE``` then there maybe some pixels unchanged.
 <br>
 I hope you understood.
 <br>
