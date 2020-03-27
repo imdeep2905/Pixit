@@ -1,5 +1,6 @@
 # Pixit
-It's downscaled but upscaled :dizzy_face: !
+It's downscaled but upscaled :dizzy_face: !<br/><br/>
+![Demo](https://github.com/imdeep2905/Pixit/blob/master/Test/demo.gif)
 # Contents
 1. [Introduction](#Introduction)
 2. [How to run](#How-to-run) 
