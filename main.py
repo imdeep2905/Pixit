@@ -3,6 +3,9 @@ import cv2
 import argparse
 import matplotlib.pyplot as plt
 
+SIZE = 8
+path = ""
+
 def fill_rect(r, c, k, val):
 #This function will fill rectangle of SIZE * SIZE with given value
     for i in range(r, r + SIZE):
