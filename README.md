@@ -16,35 +16,35 @@ This is a little project which pixelate the given image<br>
       * Help: ```python main.py --help```(To see help).
   <br>
   Some Examples:
-  ```python main.py "Test/test1.jpg" ```
+  ```python main.py "Test/test1.jpg" ```<br>
   Original:<br>
-  <br>
+  ![test1](https://github.com/imdeep2905/Pixit/blob/master/Test/test1.jpg)<br>
   Pixelated:<br>
-  <br>
+  ![testo1](https://github.com/imdeep2905/Pixit/blob/master/Test/test1o.jpg)<br>
   
   ```python main.py "Test/test2.jpg" -size 10 -grey ```
   Original:<br>
-  <br>
+  ![test2](https://github.com/imdeep2905/Pixit/blob/master/Test/test1.jpg)<br>
   Pixelated:<br>
-  <br>
+  ![test2o](https://github.com/imdeep2905/Pixit/blob/master/Test/test2o.jpg)<br>
 
   ```python main.py "Test/test3.jpg" -size 100 ```
   Original:<br>
-  <br>
+  ![test3](https://github.com/imdeep2905/Pixit/blob/master/Test/test3.jpg)<br>
   Pixelated:<br>
-  <br>
+  ![test3o](https://github.com/imdeep2905/Pixit/blob/master/Test/test3o.jpg)<br>
   
   ```python main.py "Test/test4.jpg" -size 6 -grey```
   Original:<br>
-  <br>
+  ![test4](https://github.com/imdeep2905/Pixit/blob/master/Test/test4.jpg)<br>
   Pixelated:<br>
-  <br>
+  ![test4o](https://github.com/imdeep2905/Pixit/blob/master/Test/test4o.jpg)<br>
   
   ```python main.py "Test/test5.jpg" -size 20```
   Original:<br>
-  <br>
+  ![test5](https://github.com/imdeep2905/Pixit/blob/master/Test/test5.jpg)<br>
   Pixelated:<br>
-  <br>
+  ![test5o](https://github.com/imdeep2905/Pixit/blob/master/Test/test5o.jpg)<br>
   
 # Logic behind pixelating
 As we know images are simply array of pixels. For ex. a RGB image of resolution ```1333x688``` can be viewed as an array of shape ```(1366, 768, 3)```(last 3 for seprate Red, green and blue pixels).Now let's take ```SIZE = 10 ``` and pixelate the image of same size.
