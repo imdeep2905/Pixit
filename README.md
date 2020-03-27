@@ -30,22 +30,22 @@ This is a little project which pixelate the given image.After each run program w
       <img src = "https://github.com/imdeep2905/Pixit/blob/master/Test/test2o.jpg" /><hr/>
       
   3. ```python main.py "Test/test3.jpg" -size 100 ``` <br/><br/>
-  Original: <br/> 
-  <img src = "https://github.com/imdeep2905/Pixit/blob/master/Test/test3.jpg" />
-  Output: <br/>
-  <img src = "https://github.com/imdeep2905/Pixit/blob/master/Test/test3o.jpg" /><hr/>
+      Original: <br/> 
+      <img src = "https://github.com/imdeep2905/Pixit/blob/master/Test/test3.jpg" />
+      Output: <br/>
+      <img src = "https://github.com/imdeep2905/Pixit/blob/master/Test/test3o.jpg" /><hr/>
   
   4. ```python main.py "Test/test4.jpg" -size 6 -grey``` <br/><br/>
-  Original: <br/> 
-  <img src = "https://github.com/imdeep2905/Pixit/blob/master/Test/test4.jpg" />
-  Output: <br/>
-  <img src = "https://github.com/imdeep2905/Pixit/blob/master/Test/test4o.jpg" /><hr/>
+      Original: <br/> 
+      <img src = "https://github.com/imdeep2905/Pixit/blob/master/Test/test4.jpg" />
+      Output: <br/>
+      <img src = "https://github.com/imdeep2905/Pixit/blob/master/Test/test4o.jpg" /><hr/>
   
   5. ```python main.py "Test/test5.jpg" -size 20``` <br/><br/>
-  Original: <br/> 
-  <img src = "https://github.com/imdeep2905/Pixit/blob/master/Test/test5.jpg" />
-  Output: <br/>
-  <img src = "https://github.com/imdeep2905/Pixit/blob/master/Test/test5o.jpg" /><hr/>
+      Original: <br/> 
+      <img src = "https://github.com/imdeep2905/Pixit/blob/master/Test/test5.jpg" />
+      Output: <br/>
+      <img src = "https://github.com/imdeep2905/Pixit/blob/master/Test/test5o.jpg" /><hr/>
   
   ## Demo Console log
   ```
